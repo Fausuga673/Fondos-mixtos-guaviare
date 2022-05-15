@@ -1,0 +1,33 @@
+.footer {
+    background: rgb(66,39,34);
+    background: linear-gradient(360deg, rgba(66,39,34,1) 0%, rgba(32,32,32,1) 81%);
+}
+
+.footer__article1 {
+    width: 60vw;
+    padding: 4vw;
+    color: var(--piel-claro);
+    font-family: var(--font-texto);
+}
+
+.footer__article1 h2 {
+    margin-bottom: 1vw;
+}
+
+.footer__article1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__article1 ul li button {
+    border-radius: 50%;
+    border-style: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer__article1 p {
+    margin-top: 1vw;
+}

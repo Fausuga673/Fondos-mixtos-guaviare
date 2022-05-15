@@ -1,0 +1,73 @@
+.guaviare {
+    width: 100%;
+    padding: 5vw;
+    background-image: 
+    linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+) ,url("../img/Imagenes/atardecer\ rio\ guaviare.jpg");
+    background-size: cover;
+}
+
+.guaviare__contenedor {
+    padding: 20px;
+    align-items: center;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 10px;
+    backdrop-filter: blur(12px);
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+}
+
+.guaviare__contenedor__article1 h2 {
+    font-family: var(--font-titulo);
+    font-size: min(15vw, 30px);
+    letter-spacing: 5px;
+    color: var(--color-blanco);
+    text-align: center;
+}
+
+.guaviare__contenedor__article1 p {
+    font-family: var(--font-texto);
+    font-size: min(8vw, 20px);
+    font-weight: 1000;
+    letter-spacing: 3px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+
+.guaviare__contenedor__article2 {
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    gap: 10px;
+    padding: 20px 10px;
+}
+
+.guaviare__contenedor__article2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    object-fit:cover;
+}
+
+@media (max-width: 1000px) {
+    
+    .guaviare__contenedor {
+        grid-template-columns: 100%;
+    }
+
+    .guaviare__contenedor__article1 p {
+        text-align:unset;
+    }
+
+    .guaviare__contenedor__article2 {
+        justify-content: center;
+    }
+    
+    .guaviare__contenedor__article2 img {
+        display: none;
+    }
+}

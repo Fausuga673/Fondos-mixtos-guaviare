@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-gris-oscuro: #202020;
+    --color-blanco: #EFEFEF;
+    --marron-claro: #6e3c36;
+    --marron-medio: #956e65;
+    --marron-oscuro: #422722;
+    --piel-claro: #e6dcd9;
+    --font-titulo: 'Secular One', sans-serif;
+    --font-texto: 'Manrope', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+a, p, li {
+    list-style: none;
+    text-decoration: none;
+}
